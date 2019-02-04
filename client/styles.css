@@ -1,0 +1,30 @@
+#dialog{
+    width:350px;
+    height:200px;
+    border: 2px solid #a1a1a1;
+    border-radius:10px;
+    background: #dddddd;
+    position:absolute;
+}
+
+#dialog p{
+    float:left;
+}
+
+#header{
+    background: grey;
+    border-bottom: 2px solid black;
+    border-radius:10px;
+    width:350px;
+    height:50px;
+}
+
+#header p{
+    float:left;
+   
+}
+#header img{
+    position:absolute;
+	top:10px;
+	right:10px;
+}

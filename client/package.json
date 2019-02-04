@@ -1,0 +1,23 @@
+{
+  "name": "frontend-service",
+  "preferGlobal": true,
+  "version": "1.0.0",
+  "author": "Diana Cosma",
+  "description": "Frontend service",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "main": "./server.js",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "analyze": false,
+  "license": "MIT",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "http": "0.0.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {}
+}

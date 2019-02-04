@@ -1,0 +1,25 @@
+{
+  "name": "user-service",
+  "preferGlobal": true,
+  "version": "1.0.0",
+  "author": "Diana Cosma",
+  "description": "User service",
+  "scripts": {
+    "start": "node userService.js"
+  },
+  "main": "./userService.js",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "analyze": false,
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "fs": "0.0.1-security",
+    "httpdispatcher": "^2.1.0",
+    "mongodb": "^3.0.11"
+  },
+  "devDependencies": {}
+}

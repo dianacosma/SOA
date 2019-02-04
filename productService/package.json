@@ -1,0 +1,25 @@
+{
+  "name": "product-service",
+  "preferGlobal": true,
+  "version": "1.0.0",
+  "author": "Diana Cosma",
+  "description": "product service",
+  "scripts": {
+    "start": "node productService.js"
+  },
+  "main": "./productService.js",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "analyze": false,
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "fs": "0.0.1-security",
+    "httpdispatcher": "^2.1.0",
+    "mongodb": "^2.2.28"
+  },
+  "devDependencies": {}
+}

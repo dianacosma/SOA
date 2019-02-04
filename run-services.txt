@@ -1,0 +1,18 @@
+ docker build -t <your username>/node-web-app .
+
+docker run -p 49160:8080 -d <your username>/node-web-app
+
+
+docker build -t desktop-shbuvel/user-service .
+
+docker run -p 49165:8081 -d desktop-shbuvel/user-service
+
+
+docker build -t desktop-shbuvel/product-service .
+
+docker run -p 49166:8082 -d desktop-shbuvel/product-service
+
+
+docker build -t desktop-shbuvel/frontend-service .
+
+docker run -p 49167:8083 -d desktop-shbuvel/frontend-service
